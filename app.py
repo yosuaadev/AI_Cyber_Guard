@@ -15,7 +15,6 @@ st.divider()
 @st.cache_resource
 def load_model():
     return joblib.load('model_security.pkl')
-
 model = load_model()
 
 # form inputan
